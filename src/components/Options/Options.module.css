@@ -1,0 +1,36 @@
+.options{
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+.options button {
+    width: 190px;
+    background: linear-gradient(45deg, #ff6b6b, #4facfe);
+    /* Renk geçişi */
+    border: 1px solid;
+    border-radius: 8px;
+    color: white;
+    font-size: 32px;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 1.2s ease-in-out;
+    /* Geçiş efekti */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Hafif gölge */
+}
+.options button:hover{
+        background: linear-gradient(45deg, #4facfe, #ff6b6b);
+        /* Renklerin yönünü değiştir */
+        transform: scale(1.05);
+        /* Butonu biraz büyüt */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+        /* Daha belirgin gölge */
+}
+.options button:active{
+        transform: scale(0.95);
+        /* Hafif küçültme efekti */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        /* Gölgede azalma */
+}
